@@ -1,6 +1,4 @@
-# countdown-recursive
-
-##  Recursion Explained:
+#  Recursion Explained:
 
 ##### The example here is written in `JavaScript`
 
@@ -58,3 +56,7 @@ countdown(4) returns A.unshift(4) -> [4,3,2,1]
 
 countdown(5) returns A.unshift(5) -> [5,4,3,2,1]
 ```
+
+### This can get very complicated. But it't necessary to understand the unwinding process.
+
+#### Hope this helped!
