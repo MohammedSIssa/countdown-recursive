@@ -41,7 +41,7 @@ return []
 
 ##  base case is reached! `(n < 1)`. Time to unwind and continue with the next line `A.unshift(n)`
 
-### The unwind process takes each instance made and executes newest instance to oldest instance:
+### The unwinding process takes each instance made and executes newest instance to oldest instance:
 
 ```
 countdown(0) returns []
