@@ -46,15 +46,15 @@ return []
 ```
 countdown(0) returns []
 
-countdown(1) returns A.unshift(1) -> [1]
+countdown(1) -> A.unshift(1) -> return [1]
 
-countdown(2) returns A.unshift(2) -> [2,1]
+countdown(2) -> A.unshift(2) -> return [2,1]
 
-countdown(3) returns A.unshift(3) -> [3,2,1]
+countdown(3) -> A.unshift(3) -> return [3,2,1]
 
-countdown(4) returns A.unshift(4) -> [4,3,2,1]
+countdown(4) -> A.unshift(4) -> return [4,3,2,1]
 
-countdown(5) returns A.unshift(5) -> [5,4,3,2,1]
+countdown(5) -> A.unshift(5) -> return [5,4,3,2,1]
 ```
 
 ### This can get very complicated. But it's necessary to understand the "unwinding" process.
